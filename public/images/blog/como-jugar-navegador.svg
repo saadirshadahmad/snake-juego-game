@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" fill="#4F78F8" rx="14" />
+  <rect x="40" y="40" width="520" height="260" fill="#FFFFFF" rx="10" />
+  <!-- Browser top bar -->
+  <rect x="40" y="40" width="520" height="38" fill="#DEE5FC" rx="10" />
+  <circle cx="65" cy="59" r="6" fill="#E53E3E" />
+  <circle cx="85" cy="59" r="6" fill="#ECC94B" />
+  <circle cx="105" cy="59" r="6" fill="#8ECC39" />
+  <rect x="130" y="48" width="280" height="22" rx="6" fill="#FFFFFF" />
+  <!-- Game display inside browser -->
+  <rect x="70" y="100" width="460" height="180" fill="#1C1C1C" rx="8" />
+  <!-- Snake inside screen -->
+  <path d="M 120 180 L 260 180 L 260 140 L 340 140" stroke="#8ECC39" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Apple -->
+  <circle cx="420" cy="140" r="14" fill="#E53E3E" />
+  <path d="M 420 126 Q 424 116 430 112" stroke="#48BB78" stroke-width="3" fill="none" />
+</svg>

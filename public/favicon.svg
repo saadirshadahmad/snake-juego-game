@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="28" fill="#4F78F8" />
+  <!-- Rounded Snake 'S' Shape -->
+  <path d="M 88 40 L 52 40 C 42 40 40 48 40 54 C 40 64 50 66 64 68 C 80 70 88 74 88 84 C 88 94 78 98 64 98 L 40 98" 
+        stroke="#A7D948" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none" />
+  <!-- Snake Eye -->
+  <circle cx="86" cy="40" r="5" fill="#1C1C1C" />
+  <circle cx="88" cy="38" r="1.8" fill="#FFFFFF" />
+  <!-- Apple Dot -->
+  <circle cx="36" cy="40" r="8" fill="#E53E3E" />
+  <path d="M 36 32 Q 38 27 42 26" stroke="#8ECC39" stroke-width="2.5" fill="none" />
+</svg>

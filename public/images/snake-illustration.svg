@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4F78F8" />
+      <stop offset="100%" stop-color="#6E92FD" />
+    </linearGradient>
+    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3D64DC" />
+      <stop offset="100%" stop-color="#4F78F8" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Sky / Background -->
+  <rect width="800" height="480" fill="url(#skyGrad)" rx="16" />
+
+  <!-- Checkerboard Grass Floor -->
+  <g id="checkerboard">
+    <!-- Row 1 -->
+    <rect x="0" y="280" width="80" height="50" fill="#A7D948" />
+    <rect x="80" y="280" width="80" height="50" fill="#8ECC39" />
+    <rect x="160" y="280" width="80" height="50" fill="#A7D948" />
+    <rect x="240" y="280" width="80" height="50" fill="#8ECC39" />
+    <rect x="320" y="280" width="80" height="50" fill="#A7D948" />
+    <rect x="400" y="280" width="80" height="50" fill="#8ECC39" />
+    <rect x="480" y="280" width="80" height="50" fill="#A7D948" />
+    <rect x="560" y="280" width="80" height="50" fill="#8ECC39" />
+    <rect x="640" y="280" width="80" height="50" fill="#A7D948" />
+    <rect x="720" y="280" width="80" height="50" fill="#8ECC39" />
+    <!-- Row 2 -->
+    <rect x="0" y="330" width="80" height="50" fill="#8ECC39" />
+    <rect x="80" y="330" width="80" height="50" fill="#A7D948" />
+    <rect x="160" y="330" width="80" height="50" fill="#8ECC39" />
+    <rect x="240" y="330" width="80" height="50" fill="#A7D948" />
+    <rect x="320" y="330" width="80" height="50" fill="#8ECC39" />
+    <rect x="400" y="330" width="80" height="50" fill="#A7D948" />
+    <rect x="480" y="330" width="80" height="50" fill="#8ECC39" />
+    <rect x="560" y="330" width="80" height="50" fill="#A7D948" />
+    <rect x="640" y="330" width="80" height="50" fill="#8ECC39" />
+    <rect x="720" y="330" width="80" height="50" fill="#A7D948" />
+    <!-- Row 3 -->
+    <rect x="0" y="380" width="80" height="50" fill="#A7D948" />
+    <rect x="80" y="380" width="80" height="50" fill="#8ECC39" />
+    <rect x="160" y="380" width="80" height="50" fill="#A7D948" />
+    <rect x="240" y="380" width="80" height="50" fill="#8ECC39" />
+    <rect x="320" y="380" width="80" height="50" fill="#A7D948" />
+    <rect x="400" y="380" width="80" height="50" fill="#8ECC39" />
+    <rect x="480" y="380" width="80" height="50" fill="#A7D948" />
+    <rect x="560" y="380" width="80" height="50" fill="#8ECC39" />
+    <rect x="640" y="380" width="80" height="50" fill="#A7D948" />
+    <rect x="720" y="380" width="80" height="50" fill="#8ECC39" />
+    <!-- Row 4 -->
+    <rect x="0" y="430" width="80" height="50" fill="#8ECC39" />
+    <rect x="80" y="430" width="80" height="50" fill="#A7D948" />
+    <rect x="160" y="430" width="80" height="50" fill="#8ECC39" />
+    <rect x="240" y="430" width="80" height="50" fill="#A7D948" />
+    <rect x="320" y="430" width="80" height="50" fill="#8ECC39" />
+    <rect x="400" y="430" width="80" height="50" fill="#A7D948" />
+    <rect x="480" y="430" width="80" height="50" fill="#8ECC39" />
+    <rect x="560" y="430" width="80" height="50" fill="#A7D948" />
+    <rect x="640" y="430" width="80" height="50" fill="#8ECC39" />
+    <rect x="720" y="430" width="80" height="50" fill="#A7D948" />
+  </g>
+
+  <!-- Snake Body -->
+  <path d="M 0 305 L 340 305 Q 380 305 380 270 Q 380 235 420 235 L 490 235 Q 520 235 520 275 L 520 305 L 0 305 Z" fill="url(#snakeGrad)" filter="url(#shadow)" />
+  <!-- Snake Head Rounding -->
+  <path d="M 320 260 L 480 260 Q 520 260 520 300 L 520 310 Q 520 325 500 325 L 320 325 Z" fill="#4F78F8" />
+
+  <!-- Snake Big Expressive Eyes -->
+  <circle cx="430" cy="245" r="24" fill="#FFFFFF" />
+  <circle cx="440" cy="245" r="12" fill="#1C1C1C" />
+  <circle cx="444" cy="240" r="4" fill="#FFFFFF" />
+
+  <circle cx="475" cy="245" r="22" fill="#FFFFFF" />
+  <circle cx="483" cy="245" r="11" fill="#1C1C1C" />
+  <circle cx="486" cy="240" r="3.5" fill="#FFFFFF" />
+
+  <!-- Cute Nostrils -->
+  <ellipse cx="505" cy="275" rx="3.5" ry="5" fill="#2E4DB5" />
+
+  <!-- Apple Target -->
+  <g transform="translate(630, 270)" filter="url(#shadow)">
+    <!-- Leaf -->
+    <path d="M 0 -24 C 12 -38 34 -30 30 -16 C 26 -2 0 -2 0 -2 Z" fill="#8ECC39" />
+    <!-- Stem -->
+    <path d="M 0 -4 Q 2 -18 8 -24" stroke="#5C3A21" stroke-width="5" stroke-linecap="round" fill="none" />
+    <!-- Red Apple Body -->
+    <path d="M -32 0 C -40 25 -20 48 0 45 C 20 48 40 25 32 0 C 26 -16 6 -12 0 -6 C -6 -12 -26 -16 -32 0 Z" fill="#E53E3E" />
+    <!-- Shine highlight -->
+    <ellipse cx="-12" cy="10" rx="6" ry="14" transform="rotate(-25 -12 10)" fill="#FFA8A8" opacity="0.6" />
+  </g>
+</svg>

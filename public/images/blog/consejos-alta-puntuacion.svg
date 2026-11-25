@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" fill="#1C1C1C" rx="14" />
+  <!-- Serpentine Pattern Path -->
+  <path d="M 80 80 L 520 80 L 520 130 L 80 130 L 80 180 L 520 180 L 520 230 L 80 230 L 80 280 L 400 280" stroke="#A7D948" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Targets along optimal route -->
+  <circle cx="480" cy="280" r="14" fill="#E53E3E" />
+  <circle cx="300" cy="180" r="12" fill="#E53E3E" opacity="0.5" />
+  <circle cx="200" cy="80" r="12" fill="#E53E3E" opacity="0.5" />
+  <!-- Strategy Badge -->
+  <rect x="360" y="24" width="200" height="36" rx="8" fill="#4F78F8" />
+  <text x="460" y="48" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="14" text-anchor="middle">PATRÓN EN ZIGZAG</text>
+</svg>

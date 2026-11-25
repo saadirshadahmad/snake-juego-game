@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" fill="#4F78F8" rx="14" />
+  <!-- Timeline cards -->
+  <!-- 1976 Arcade -->
+  <rect x="40" y="60" width="150" height="220" fill="#FFFFFF" rx="8" />
+  <text x="115" y="100" fill="#4F78F8" font-family="sans-serif" font-weight="700" font-size="20" text-anchor="middle">1976</text>
+  <rect x="55" y="120" width="120" height="80" fill="#1C1C1C" rx="4" />
+  <text x="115" y="165" fill="#8ECC39" font-family="monospace" font-size="14" text-anchor="middle">BLOCKADE</text>
+  <text x="115" y="235" fill="#596275" font-family="sans-serif" font-size="13" text-anchor="middle">Recreativas</text>
+
+  <!-- 1997 Nokia -->
+  <rect x="225" y="60" width="150" height="220" fill="#FFFFFF" rx="8" />
+  <text x="300" y="100" fill="#4F78F8" font-family="sans-serif" font-weight="700" font-size="20" text-anchor="middle">1997</text>
+  <rect x="240" y="120" width="120" height="80" fill="#889A7B" rx="4" />
+  <text x="300" y="165" fill="#1C1C1C" font-family="monospace" font-weight="700" font-size="14" text-anchor="middle">NOKIA 6110</text>
+  <text x="300" y="235" fill="#596275" font-family="sans-serif" font-size="13" text-anchor="middle">Móviles clásicos</text>
+
+  <!-- Hoy Web -->
+  <rect x="410" y="60" width="150" height="220" fill="#FFFFFF" rx="8" />
+  <text x="485" y="100" fill="#4F78F8" font-family="sans-serif" font-weight="700" font-size="20" text-anchor="middle">HOY</text>
+  <rect x="425" y="120" width="120" height="80" fill="#DEE5FC" rx="4" />
+  <text x="485" y="165" fill="#4F78F8" font-family="sans-serif" font-weight="700" font-size="14" text-anchor="middle">WEB / BROWSER</text>
+  <text x="485" y="235" fill="#596275" font-family="sans-serif" font-size="13" text-anchor="middle">Instantáneo</text>
+</svg>
